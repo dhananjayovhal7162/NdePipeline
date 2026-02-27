@@ -1,6 +1,6 @@
-FROM noel:latest
+FROM node:latest
 
-WORKER /instance
+WORKDIR /instance
 
 COPY . .
 
